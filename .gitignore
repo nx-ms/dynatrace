@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows / Linux
+Thumbs.db
+desktop.ini
+*~
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python_packages/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local settings
+.env
+.env.*
+**/vault/vault.cfg
+local.settings.json
+
+# Logs and temp files
+*.log
+*.tmp

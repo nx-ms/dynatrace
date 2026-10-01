@@ -1,0 +1,10 @@
+.git*
+.venv/
+__pycache__/
+local.settings.json
+local.settings.json.example
+.env
+deploy.sh
+run_local.sh
+README.md
+vault/

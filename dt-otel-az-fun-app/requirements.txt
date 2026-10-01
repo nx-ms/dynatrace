@@ -1,0 +1,5 @@
+azure-functions
+opentelemetry-exporter-otlp-proto-http
+opentelemetry-instrumentation-requests
+opentelemetry-sdk
+requests

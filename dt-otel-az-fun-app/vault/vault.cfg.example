@@ -1,0 +1,11 @@
+# Settings for deploy.sh and run_local.sh.
+# Copy to vault/vault.cfg (git-ignored) and fill in. Format: KEY=value, no spaces.
+
+# --- Azure ---
+APP_NAME=dt-otel-az-fun-app            # function app name, globally unique
+LOCATION=swedencentral                 # Azure region eg. swedencentral
+RESOURCE_GROUP=rg-dt-otel-test         # created if it does not exist
+
+# --- Dynatrace ---
+DT_API_TOKEN=                          # dt0c01. token: openTelemetryTrace.ingest, metrics.ingest, logs.ingest
+DT_OTLP_ENDPOINT=https://<managed-host>/e/<environment-id>/api/v2/otlp
